@@ -56,5 +56,5 @@ def main(args):
 if __name__ == '__main__':
     # sending passwords using command line args (security risk as the password are saved in the command line)
     # sys.exit(main(sys.argv[1:]))
-    # sending passwords using a txt file (password.txt)
+    # sending passwords using a txt file (passwords.txt)
     sys.exit(main(read_file('passwords.txt')))
